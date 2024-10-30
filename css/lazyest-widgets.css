@@ -1,0 +1,6 @@
+li.lazyest_random, li.lazyest_recent { list-style-type: none; }
+.lazyest_random_slideshow_item, .lazyest_recent_slideshow_item { position:relative }
+.lazyest_random_slideshow_item div.lg_thumb, .lazyest_recent_slideshow_item div.lg_thumb { position:absolute; top:0; left:0; z-index:8; }
+.lazyest_random_slideshow_item div.lg_thumb.active, .lazyest_recent_slideshow_item div.lg_thumb.active { z-index:10; }
+.lazyest_random_slideshow_item div.lg_thumb.last-active, .lazyest_recent_slideshow_item div.lg_thumb.last-active { z-index:9; }
+.lazyest_recent_slideshow_item span.args { display: none; }
